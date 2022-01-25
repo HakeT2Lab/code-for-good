@@ -11,8 +11,8 @@ const Home = () => {
       <div id="body">
         <div className="text">
           <Typography variant="caption">
-            People like us the world a safer place, let's make someone's life
-            with helping hands for the homeless
+            People like us make the world a safer place, let's make someone's life
+            with helping hands for the homeless.
           </Typography>
           <Donation_box />
 
