@@ -13,4 +13,6 @@ const Footer = () => {
     </Typography>
 };
 
+  
+
 export default Footer;
