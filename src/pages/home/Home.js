@@ -8,6 +8,7 @@ const Home = () => {
 
   return (
     <div>
+      
       <div id="home_background">
         <div className="text">
           <Typography variant="caption">
