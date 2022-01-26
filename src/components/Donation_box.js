@@ -30,15 +30,16 @@ const Donation_box = () => {
   const Dono_box = {
     backgroundColor: "#D706F9",
     height: 270,
-    alignItems: 'center'
+    alignItems: 'center',
+    borderRadius: 25
   }
 
   return (
     <div className="donobox">
-      <Box sx={{ width: 350, textAlign: 'center' }}>
+      <Box sx={{ width: 350, textAlign: 'center'}}>
         <div id="container_div" style={Dono_box}>
           <div id="amount_div" style={amount_div}>
-            <Button size="large" variant="outlined" style={donation_amount}>$25</Button>
+            <Button size="large"  variant="outlined" style={donation_amount}>$25</Button>
             <Button size="large" variant="outlined" style={donation_amount}>$50</Button>
             <Button size="large" variant="outlined" style={donation_amount}>$100</Button>
           </div>
@@ -54,7 +55,9 @@ const Donation_box = () => {
         </div>
         <div>
           <Typography variant="caption">
+            <Box sx={{fontWeight: 'bold'}}>
             100% of your donations goes to people in need
+            </Box>
           </Typography>
         </div>
       </Box>
