@@ -3,12 +3,14 @@ import { Typography } from "@material-ui/core";
 import "./home.css";
 
 import Donation_box from "../../components/Donation_box";
+import Nav from "../../components/Nav";
 
 const Home = () => {
 
   return (
     <div>
-      
+      <div id="top_image"></div>
+      <Nav />
       <div id="home_background">
         <div className="text">
           <Typography variant="caption">
