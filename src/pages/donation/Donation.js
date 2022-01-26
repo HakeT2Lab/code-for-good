@@ -1,6 +1,6 @@
 import { Box, Typography } from "@material-ui/core";
 import React from "react";
-import "../donation/Donation.css"
+import "../donation/donation.css"
 
 const Donation = () => {
   return (
