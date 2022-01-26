@@ -1,8 +1,17 @@
 #home_background  {
     background-image: url("https://cdn.givingcompass.org/wp-content/uploads/2018/12/27111339/How-helping-people-affects-your-brain.jpg");
     background-repeat: no-repeat;
+    background-position: top center;
     background-attachment: fixed;
     background-size: 100% 100%;
 
-    height:90vh ;
+    height:60vh ;
+}
+
+#top_image {
+    background-image: url("../../images/NPR.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:18vh ;
+
 }
