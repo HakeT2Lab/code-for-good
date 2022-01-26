@@ -30,13 +30,6 @@ const Donation_box = () => {
 
       <Button variant="contained" style={button_Style}>Donate</Button>
 
-      <div id="text">
-        <Typography variant="caption">
-          People like us the world a safer place, let's make someone's life with
-          helping hands for the homeless
-        </Typography>
-      </div>
-
       {/* Donation button */}
       <div id="payment_method">
         <Button variant="outlined" style={donation_amount}>Check</Button>

@@ -8,11 +8,11 @@ const Home = () => {
 
   return (
     <div>
-      <div id="body">
+      <div id="home_background">
         <div className="text">
           <Typography variant="caption">
-            People like us make the world a safer place, let's make someone's life
-            with helping hands for the homeless.
+          People like us makes the world a safer place. 
+          Let’s make someone's life safe with helping hands for the homeless.
           </Typography>
           <Donation_box />
 
