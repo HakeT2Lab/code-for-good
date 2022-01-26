@@ -6,8 +6,8 @@ const Footer = () => {
     return <Typography component="div">
         <Box sx={{ bgcolor: '#D09AFA', textAlign: 'center', fontFamily: 'Monospace' }}>
             <Container>
-                <h1>Created by: Dante, Hakeem, Kathryna and Sean
-                </h1>
+                <Typography variant="h4">Created by: Dante, Hakeem, Kathryna and Sean
+                </Typography>
             </Container>
         </Box>
     </Typography>
