@@ -21,6 +21,8 @@ const Nav = () => {
   ];
 
   return (
+    
+
     <Box
       className="nav_container"
       sx={{ bgcolor: "#D09AFA", fontFamily: "Monospace" }}
@@ -32,7 +34,7 @@ const Nav = () => {
 
         {Links.map((link) => (
           <Grid item xs={2}>
-            <Link className="nav_link" to= {link.destination}>
+            <Link className="nav_link" to= {link.destination} >
               {link.text}
             </Link>
           </Grid>
