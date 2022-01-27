@@ -25,8 +25,7 @@ const Nav = () => {
 
     <Box
       className="nav_container"
-      sx={{ bgcolor: "#D09AFA", fontFamily: "Monospace" }}
-    >
+      sx={{ bgcolor: "#D09AFA", fontFamily: "Monospace" }}>
       <Grid container spacing={2}>
         <Grid item xs={6}>
           <img alt="logo" src={Logo} height={80} width={80} />
