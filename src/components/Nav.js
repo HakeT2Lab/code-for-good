@@ -21,19 +21,20 @@ const Nav = () => {
   ];
 
   return (
-    
-
     <Box
       className="nav_container"
-      sx={{ bgcolor: "#D09AFA", fontFamily: "Monospace" }}>
-      <Grid container spacing={2}>
+      sx={{ bgcolor: "#D09AFA", fontFamily: "Monospace" }}
+    >
+      <Grid container spacing={2} alignItems="center">
         <Grid item xs={6}>
-          <img alt="logo" src={Logo} height={80} width={80} />
+          <Link to="/">
+            <img alt="logo" src={Logo} height={80} width={80} />
+          </Link>
         </Grid>
 
         {Links.map((link) => (
           <Grid item xs={2}>
-            <Link className="nav_link" to= {link.destination} >
+            <Link className="nav_link" to={link.destination}style={{ textDecoration: 'none' }}>
               {link.text}
             </Link>
           </Grid>
