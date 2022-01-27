@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
 import "./home.css";
+import Logo from "../../components/images/logo.png"
 
 import Donation_box from "../../components/Donation_box";
 import Nav from "../../components/Nav";
@@ -12,19 +13,27 @@ const Home = () => {
       <div id="top_image"></div>
       <Nav />
       <div id="home_background">
-        <Grid container>
-          <Grid item xs={5}>
-            <Typography variant="h4">
-              <Box sx={{ fontWeight: 'bold', padding:'20px', fontFamily: 'Monospace'} }>
-                People like us makes the world a safer place. Let’s make
-                someone's life safe with helping hands for the homeless.
+        <div id="home_front">
+          <Grid container>
+            <Grid item xs={6}>
+              <Typography style={{ color: "#FAA09A" }} variant="h1">
+                <Box sx={{ fontWeight: 'bold', marginLeft: 40, marginTop: 40, fontFamily: 'Monospace' }}>
+                  Lend a helping hand.
+                </Box>
+              </Typography>
+              <Typography style={{ color: "#FAA09A" }} variant="h3">
+                <Box sx={{ marginLeft: 40, marginTop: 40, fontFamily: 'Monospace' }}>
+                  Share in giving the gift of a home to someone in need.
+                </Box>
+              </Typography>
+            </Grid>
+            <Grid item xs={6}>
+              <Box sx={{ marginRight: 20 }}>
+                <Donation_box />
               </Box>
-            </Typography>
+            </Grid >
           </Grid>
-          <Grid item xs={6}>
-            <Donation_box />
-          </Grid>
-        </Grid>
+        </div>
       </div>
     </div>
   );

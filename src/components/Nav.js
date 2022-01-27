@@ -1,4 +1,4 @@
-import { Container, Box } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 import React from "react";
 import Logo from "./images/logo.png";
 import { Link } from "react-router-dom";
@@ -25,11 +25,10 @@ const Nav = () => {
 
     <Box
       className="nav_container"
-      sx={{ bgcolor: "#D09AFA", fontFamily: "Monospace" }}
-    >
+      sx={{ bgcolor: "#D09AFA", fontFamily: "Monospace" }}>
       <Grid container spacing={2}>
         <Grid item xs={6}>
-          <img src={Logo} height={80} width={80} />
+          <img alt="logo" src={Logo} height={80} width={80} />
         </Grid>
 
         {Links.map((link) => (

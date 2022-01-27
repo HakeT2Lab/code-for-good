@@ -1,17 +1,20 @@
 #home_background  {
-    background-image: url("https://cdn.givingcompass.org/wp-content/uploads/2018/12/27111339/How-helping-people-affects-your-brain.jpg");
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5abf188445776ed72e3a4d26/1616713571672-X3APYB03VFPV711K5452/AdobeStock_252280419+%281%29.jpeg");
     background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: 100% 100%;
+    /* filter: brightness(80%); */
 
-    height:60vh ;
+    height: 110vh;
 }
 
 #top_image {
-    background-image: url("../../images/home_background_top.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url("https://jcremc.com/wp-content/uploads/2020/07/Helping-Hands-scaled.jpg");
+    background-size: 25% 100%;
     height:18vh ;
 
+}
+
+#home_front {
+    /* filter: brightness(140%); */
 }
